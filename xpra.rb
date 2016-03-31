@@ -18,13 +18,13 @@ class Xpra < Formula
   homepage 'https://www.xpra.org'
   head 'https://www.xpra.org/svn/Xpra/trunk/src', :using => :svn
 
-  url 'https://www.xpra.org/src/xpra-0.14.29.tar.xz'
+  url 'https://www.xpra.org/src/xpra-0.16.3.tar.xz'
   version '0.14.29'
-  sha256 'bb46a25485f29ae2f99cf8705525fa73b90d28fe84d4172d58a90d959e59b0b0'
+  sha256 '1516ab10eb348092077ffb698bce234d06a234a5748e422fdf92f34922fb39ea'
 
   devel do
-    url 'https://www.xpra.org/src/xpra-0.15.5.tar.xz'
-    sha256 'bcd258e8a0af4d074da09c898f0b80b5ea09513782184e06c6003f31365dfb9a'
+    url 'https://www.xpra.org/src/xpra-0.16.3.tar.xz'
+    sha256 '1516ab10eb348092077ffb698bce234d06a234a5748e422fdf92f34922fb39ea'
   end
 
   depends_on 'pkg-config' => :build
@@ -33,8 +33,8 @@ class Xpra < Formula
   depends_on 'Homebrew/python/pillow'
 
   resource 'cython' do
-    url 'http://cython.org/release/Cython-0.22.tar.gz'
-    sha256 '14307e7a69af9a0d0e0024d446af7e51cc0e3e4d0dfb10d36ba837e5e5844015'
+    url 'http://cython.org/release/Cython-0.23.5.tar.gz'
+    sha256 '0ae5a5451a190e03ee36922c4189ca2c88d1df40a89b4f224bc842d388a0d1b6'
   end
 
   def install
