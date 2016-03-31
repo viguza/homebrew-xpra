@@ -19,7 +19,7 @@ class Xpra < Formula
   head 'https://www.xpra.org/svn/Xpra/trunk/src', :using => :svn
 
   url 'https://www.xpra.org/src/xpra-0.16.3.tar.xz'
-  version '0.14.29'
+  version '0.16.3'
   sha256 '1516ab10eb348092077ffb698bce234d06a234a5748e422fdf92f34922fb39ea'
 
   devel do
